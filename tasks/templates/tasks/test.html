@@ -1,0 +1,22 @@
+<h3>Update Task</h3>
+
+<form method="POST" action="">
+	{% csrf_token %}
+
+	{{form}}
+	<input type="submit" name="Update Task">
+	
+	
+</form>
+
+<div class="container">
+    <div class="hero-unit">
+        <h1>Update</h1>
+        <form method="POST" action="">
+            {% csrf_token %}
+        
+            {{form}}
+            <input type="submit" name="Update Task">
+        </form>
+      </div>
+</div>
